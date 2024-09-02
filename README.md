@@ -13,3 +13,13 @@ protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=p
 protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative calculater/calculater.proto
 protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative chat/chat.proto
 ```
+
+## Server 실행
+```go
+go run ./helloworld-server/main.go
+```
+
+## Client 실행
+```go
+go run ./helloworld-client/main.go
+```

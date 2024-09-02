@@ -32,7 +32,7 @@ import (
 )
 
 const (
-	defaultName = "world"
+	defaultName = "goofy"
 )
 
 var (
